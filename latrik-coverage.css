@@ -1,0 +1,244 @@
+.main-wrap {
+    height: 700px;
+    width: 1340px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#cov1 {
+    height: 600px;
+    width: 700px;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 320px;
+    padding: 12px;
+    box-shadow: 0 10px 10px 0 rgba(35, 136, 243, 0.1);
+    display: inline-block;
+}
+
+#state {
+    height: 60px;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: whitesmoke;
+}
+#state:focus{
+    outline: none;
+}
+
+select {
+    color: rgb(35, 136, 243);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    padding-left: 15px;
+}
+
+option{
+    border: none;
+}
+
+#measure{
+    height: 60px;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+#measure:focus{
+    outline: none;
+}
+
+#devices{
+    height: 60px;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+#devices:focus{
+    outline: none;
+}
+
+#cov1B {
+    background-color: whitesmoke;
+    height: 280px;
+    width: 390px;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: rgb(168, 167, 167);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 20px;
+    display: none;
+    padding-top: 5px;
+}
+
+hr{
+    border-radius: 50px;
+    border: 1px solid rgb(35, 136, 243);
+    border-style: dotted;
+}
+#cov2, #cov3, #cov4 {
+    height: 600px;
+    width: 700px;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 320px;
+    padding: 12px;
+    box-shadow: 0 10px 10px 0 rgba(35, 136, 243, 0.1);
+}
+
+#cov2B{
+    background-color: whitesmoke;
+    height: 200px;
+    width: 390px;
+    display: none;
+    margin-top: 25px;
+    margin-left: 20px;
+    color: rgb(168, 167, 167);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 20px;
+    display: none;
+    padding-top: 5px;
+}
+#cov4 {
+    background-image: url("wrld-18.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    padding: 20px;
+    background-position: center;
+}
+
+#uk, #germany, #canada, #mexico, #brazil, #denmark {
+    padding: 21px;
+    width: 80px;
+    border-radius: 50px;
+    display: block;
+    margin: 20px;
+}
+
+#uk {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#germany {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#canada {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Canada_%281964%29.svg/600px-Flag_of_Canada_%281964%29.svg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mexico {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e3/Flag_of_Mexico_%281916-1934%29.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#brazil {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#denmark {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1200px-Flag_of_Denmark.svg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h4 {
+    color: rgb(35, 136, 243);
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+p {
+    color: rgb(35, 136, 243);
+    font-size: 18px;
+    text-align: left;
+    margin-left: 20px;
+    line-height: 5vh;
+}
+
+label {
+    color: rgb(35, 136, 243);
+    font-weight: 700;
+    font-size: 20px;
+    display: block;
+    margin: 20px;
+}
+
+input {
+    height: 30px;
+    width: 350px;
+    border: 1px solid rgb(35, 136, 243);
+    border-radius: 50px;
+    display: block;
+    margin-bottom: 10px;
+    margin: 20px;
+    font-size: 25px;
+    color: rgb(35, 136, 243);
+    padding-left: 13px;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 25px;
+    color: whitesmoke;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    padding: 15px;
+    width: 120px;
+    margin: 20px;
+    background-color: rgb(35, 136, 243);
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+    color: rgb(35, 136, 243);
+}
+
+#reset {
+    width: 150px;
+    background: rgb(35, 136, 243);
+    font-size: 18px;
+    color: white;
+}

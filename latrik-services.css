@@ -1,0 +1,276 @@
+body {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+}
+
+#brand {
+    height: 150px;
+    width: 250px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#brand h1 {
+    font-size: 45px;
+    color: rgb(35, 136, 243);
+    text-decoration-line: none;
+}
+
+a {
+    text-decoration-line: none;
+    color: rgb(35, 136, 243);
+}
+
+
+#menu {
+    height: 80px;
+    width: 600px;
+    overflow: hidden;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 430px;
+}
+
+#menu a {
+    font-size: 18px;
+    text-decoration-line: none;
+    margin: 18px;
+    font-weight: 600;
+    color: rgb(35, 136, 243);
+}
+
+#menu a:hover {
+    color: rgb(23, 185, 23);
+}
+
+.row1 {
+    height: 660px;
+    width: 600px;
+}
+
+.container {
+    height: 500px;
+    width: 100%;
+}
+
+#service1, #service2, #service3, #service4, #service5, #service6 {
+    display: inline-flex;
+    height: 250px;
+    width: 441.5px;
+    background-color: whitesmoke;
+    color: rgb(35, 136, 243);
+    font-weight: 800;
+    font-size: 24px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+#service1:hover, #service2:hover, #service3:hover, #service4:hover, #service5:hover, #service6:hover {
+    background-color: rgba(35, 136, 243, 0.7);
+    color: white;
+}
+
+#service1:hover a, #service2:hover a, #service3:hover a, #service4:hover a, #service5:hover a, #service6:hover a {
+    color: white;
+}
+
+h3, i {
+    margin: 5px;
+}
+
+#wind1 {
+    display: inline-block;
+    height: 400px;
+    width: 664px;
+    /* background-color: whitesmoke; */
+    margin-top: 10px;
+    background-image: url("https://www.mbmconsulting.dk/wp-content/uploads/2017/09/rotating-mill-500x500px.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+#wind2 {
+    display: inline-block;
+    height: 400px;
+    width: 664px;
+    /* background-color: whitesmoke; */
+    margin-top: 10px;
+    overflow: hidden;
+    font-size: 24px;
+    color: rgb(35, 136, 243);
+}
+
+#windbutton {
+    padding: 15px;
+    width: 160px;
+    background-color: rgb(23, 185, 23);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#windbutton:hover{
+    background-color: rgb(35, 136, 243);
+}
+
+#solar1 {
+    display: inline-block;
+    height: 400px;
+    width: 664px;
+    overflow: hidden;
+    margin-top: 50px;
+    font-size: 24px;
+    color: rgb(35, 136, 243);
+}
+
+#solar2 {
+    display: inline-block;
+    height: 400px;
+    width: 664px;
+    overflow: hidden;
+    margin-top: 50px;
+    background-image: url("https://www.vippng.com/png/detail/375-3753185_energy-transparent-solar-solar-panels-without-background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#solarbutton {
+    padding: 15px;
+    width: 160px;
+    background-color: rgb(23, 185, 23);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#solarbutton:hover{
+    background-color: rgb(35, 136, 243);
+}
+
+#solarbutton a {
+    color: white;
+}
+
+#station1{
+    display: inline-block;
+    height: 400px;
+    width: 664px;
+    overflow: hidden;
+    margin-top: 50px;
+    background-image: url("https://www.evnex.com/assets/img/illustrations/electric-car.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#station2 {
+    display: inline-block;
+    height: 400px;
+    width: 664px;
+    overflow: hidden;
+    margin-top: 50px;
+    font-size: 24px;
+    color: rgb(35, 136, 243);
+}
+
+#consulting1 {
+    display: inline-block;
+    height: 400px;
+    width: 664px;
+    overflow: hidden;
+    margin-top: 50px;
+    font-size: 24px;
+    color: rgb(35, 136, 243);
+}
+
+#consulting2 {
+    display: inline-block;
+    height: 400px;
+    width: 664px;
+    overflow: hidden;
+    margin-top: 50px;
+    background-image: url("https://ak.picdn.net/shutterstock/videos/3249169/thumb/11.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#household1{
+    display: inline-block;
+    height: 400px;
+    width: 664px;
+    overflow: hidden;
+    margin-top: 50px;
+    background-image: url("https://www.freeiconspng.com/uploads/house-from-premier-builders-in-carthage-mo-64836--home-builders-5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#household2{
+    display: inline-block;
+    height: 400px;
+    width: 664px;
+    overflow: hidden;
+    margin-top: 50px;
+    font-size: 24px;
+    color: rgb(35, 136, 243);
+}
+
+#industrial1{
+    display: inline-block;
+    height: 400px;
+    width: 664px;
+    overflow: hidden;
+    margin-top: 50px;
+    font-size: 24px;
+    color: rgb(35, 136, 243);
+}
+
+#industrial2{
+    display: inline-block;
+    height: 400px;
+    width: 664px;
+    overflow: hidden;
+    margin-top: 50px;
+    background-image: url("https://image.freepik.com/free-vector/white-isometric-factory_1344-6.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+hr {
+    border: 1px solid cornsilk;
+}
+
+h6{
+    line-height: 5vh;
+}
+
+footer {
+    height: 30px;
+    width: 1330px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer a {
+    text-decoration-line: none;
+    margin: 12px;
+    font-size: 12px;
+    color: rgb(35, 136, 243);
+    font-weight: 600;
+}
