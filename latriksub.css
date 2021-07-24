@@ -47,8 +47,8 @@ a {
 }
 
 .container {
-    height: 480px;
-    width: 1348px;
+    height: 550px;
+    width: 1330px;
     background-color: white;
     background-image: url("countergraphic1.png");
 }
@@ -57,7 +57,7 @@ a {
     height: 25px;
     width: 350px;
     margin-top: 20px;
-    display: inline-block;
+    display: block;
     margin-left: 3px;
     overflow: hidden;
     border: none;
